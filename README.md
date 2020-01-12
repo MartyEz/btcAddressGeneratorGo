@@ -3,7 +3,7 @@
 - This program was made in order to test security of web wallet and app wallet. Some of theses use user inputs in order to generate the privKey
 - It can generate privKey, pubKey, Segwit, Bech32, Legacy addresses.
 - The privKey generation algorithms targeted have been replaced by a simple random string generator in this version.
-- This program use goroutines to speed up 
+- This program use goroutines to speed up compute
 
 
 # Dependencies 
@@ -20,5 +20,6 @@
 # Performances
 
 - 5 Millions generations in 74 seconds.  
+- Comment data printer to speed up compute
 
 I made the same program in C++ : https://github.com/MartyEz/btcAddressGeneratorCpp
