@@ -21,4 +21,4 @@
 
 - 5 Millions generations in 74 seconds.  
 
-I made the same program in C++ : https://github.com/MartyEz/btcaddressgeneratorcpp
+I made the same program in C++ : https://github.com/MartyEz/btcAddressGeneratorCpp
