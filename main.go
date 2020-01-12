@@ -29,7 +29,7 @@ func main() {
 	workSended := false
 	y := 0
 
-	for i := 0; i < 5000000; i++ {
+	for i := 0; i < 5000; i++ {
 		waitGroup.Add(1)
 		s := []byte(utils.RndString()) // generate random string
 		workSended = false
