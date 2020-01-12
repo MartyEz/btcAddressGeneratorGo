@@ -32,7 +32,7 @@ func GenerateAdr(ptrWaiter *sync.WaitGroup, byteChan chan []byte) {
 		bech32Address := generateBech32Address(ripemd160Hash)
 		legacyAddress := generateLegacyAddress(ripemd160Hash)
 		_,_,_ = segWitAddress,bech32Address,legacyAddress
-		//fmt.Printf("seed   : %s \nprivK  : %s \npubKCompressed   : %x \nseg    : %s \nbech32 : %s \nlegacy : %s \n", s,rslHex,pubkey65,segWitAddress,bech32Address,legacyAddress)
+		fmt.Printf("seed   : %s \nprivK  : %s \npubKCompressed   : %x \nseg    : %s \nbech32 : %s \nlegacy : %s \n", s,rslHex,pubkey65,segWitAddress,bech32Address,legacyAddress)
 		ptrWaiter.Done()
 	}
 
