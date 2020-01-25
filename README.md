@@ -19,7 +19,7 @@
 
 # Performances
 
-- 5 Millions generations in 74 seconds.  
+- 5 Millions generations in 74 seconds on I5-4690K@4.4Ghz.  
 - Comment data printer to speed up compute
 
 I made the same program in C++ : https://github.com/MartyEz/btcAddressGeneratorCpp
